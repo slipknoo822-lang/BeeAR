@@ -1,0 +1,8 @@
+// OriLang Sample: Temperature Converter
+fn celsius_to_fahrenheit(c) {
+    return (c * 9/5) + 32;
+}
+
+let temp_c = 25;
+let temp_f = celsius_to_fahrenheit(temp_c);
+print(temp_c + "C is " + temp_f + "F");

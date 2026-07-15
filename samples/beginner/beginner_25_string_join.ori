@@ -1,0 +1,9 @@
+// OriLang Sample: String Join
+let words = ["Hello", "World", "OriLang"];
+let result = "";
+
+for w in words {
+    result = result + w + " ";
+}
+
+print("Joined: " + result);
